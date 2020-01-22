@@ -23,7 +23,19 @@ namespace Project4_Code6.Data
 
                 context.Users.AddRange(
                     new User { 
-                        Username = "admin", Password = "admin", Email = "admin@admin.com"
+                        Username = "admin", Password = "admin", Email = "admin@admin.com", IsAdmin = true
+                    },
+                    new User
+                    {
+                        Username = "stijn", Password = "stijn", Email = "stijn@stijn.com", IsAdmin = false
+                    },
+                    new User
+                    {
+                        Username = "amber", Password = "amber", Email = "amber@amber.com", IsAdmin = false
+                    },
+                    new User
+                    {
+                        Username = "Tibo", Password = "tibo", Email = "tibo@tibo.com", IsAdmin = false
                     }
                 );
             context.SaveChanges();

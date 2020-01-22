@@ -44,6 +44,7 @@ namespace Project4_Code6.Controllers
         }
 
         // GET: api/Users/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
@@ -58,6 +59,7 @@ namespace Project4_Code6.Controllers
         }
 
         // PUT: api/Users/5
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(int id, User user)
         {
@@ -88,6 +90,7 @@ namespace Project4_Code6.Controllers
         }
 
         // POST: api/Users
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
@@ -98,6 +101,7 @@ namespace Project4_Code6.Controllers
         }
 
         // DELETE: api/Users/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<ActionResult<User>> DeleteUser(int id)
         {

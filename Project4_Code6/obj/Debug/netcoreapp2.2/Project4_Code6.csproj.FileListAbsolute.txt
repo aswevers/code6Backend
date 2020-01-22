@@ -14,3 +14,17 @@ D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project
 D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.pdb
 D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.dll
 D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.pdb
+D:\school\project4.0\code6Backend\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.deps.json
+D:\school\project4.0\code6Backend\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.runtimeconfig.json
+D:\school\project4.0\code6Backend\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.runtimeconfig.dev.json
+D:\school\project4.0\code6Backend\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.dll
+D:\school\project4.0\code6Backend\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.pdb
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.csprojAssemblyReference.cache
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.csproj.CoreCompileInputs.cache
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.RazorAssemblyInfo.cache
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.RazorAssemblyInfo.cs
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.AssemblyInfoInputs.cache
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.AssemblyInfo.cs
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.RazorTargetAssemblyInfo.cache
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.dll
+D:\school\project4.0\code6Backend\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.pdb
