@@ -1,0 +1,16 @@
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.deps.json
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.runtimeconfig.json
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.runtimeconfig.dev.json
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.dll
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.csprojAssemblyReference.cache
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.RazorAssemblyInfo.cache
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.RazorAssemblyInfo.cs
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.AssemblyInfoInputs.cache
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.AssemblyInfo.cs
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.RazorTargetAssemblyInfo.cache
+D:\Project4Backend\Project4_Code6\Project4_Code6\bin\Debug\netcoreapp2.2\Project4_Code6.pdb
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.dll
+D:\Project4Backend\Project4_Code6\Project4_Code6\obj\Debug\netcoreapp2.2\Project4_Code6.pdb
