@@ -36,7 +36,6 @@ namespace Project4_Code6.Controllers
             return Ok(user); 
         }
         // GET: api/Users
-        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
