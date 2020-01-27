@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPQhnb9LeCUy+iyI/EWczxgAAAAACAAAAAAAQZgAAAAEAACAAAADEyg18gxUXK7e/72Io5jjo3xDmUAu2UuGcThkGBCAzJgAAAAAOgAAAAAIAACAAAAC0x5XyJCBt3wliPEhw4K4KySMJvrLrFctMPDlQJmh9byAAAAA6Ip45owPaQ/+IRFaZb8YeNf9dJ0BAazODm6Zh6mMOW0AAAAB2tje6+kWfPdtGHmVgSDwXtZX+/1jRJ64V1ifRkEX/vZUperSf6XTRHaio7I1q4ZzDRz0tm+skdvNWId/beWJo</EncryptedPassword>
+    <_PublishTargetUrl>ftp://192.168.1.82/api</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>01/27/2020 10:59:05</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>01/27/2020 11:28:34</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.exe">
+      <publishTime>11/20/2019 22:47:12</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>01/16/2019 15:11:42</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>02/07/2019 23:10:26</publishTime>
+    </File>
+    <File Include="Pomelo.JsonObject.dll">
+      <publishTime>02/07/2019 22:47:50</publishTime>
+    </File>
+    <File Include="Project4_Code6.deps.json">
+      <publishTime>01/27/2020 11:49:10</publishTime>
+    </File>
+    <File Include="Project4_Code6.dll">
+      <publishTime>01/27/2020 11:49:08</publishTime>
+    </File>
+    <File Include="Project4_Code6.pdb">
+      <publishTime>01/27/2020 11:49:08</publishTime>
+    </File>
+    <File Include="Project4_Code6.runtimeconfig.json">
+      <publishTime>01/27/2020 11:49:10</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.dll">
+      <publishTime>11/07/2018 10:25:10</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>11/07/2018 10:25:06</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>11/07/2018 10:25:08</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>11/07/2018 10:25:06</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>01/27/2020 11:49:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
