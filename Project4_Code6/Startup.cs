@@ -34,7 +34,7 @@ namespace Project4_Code6
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddCors(o => o.AddPolicy("MyPolicy", builder => { builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); }));
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder => { builder.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin(); }));
             services.AddDbContext<ProjectContext>(opt => opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
