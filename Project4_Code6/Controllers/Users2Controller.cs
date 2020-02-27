@@ -53,6 +53,7 @@ namespace Project4_Code6.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(int id, Users2 user)
         {
+
             if (id != user.Id)
             {
                 return BadRequest();
@@ -84,10 +85,49 @@ namespace Project4_Code6.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(Users2 user)
         {
-            _context.Users2.Add(user);
-            await _context.SaveChangesAsync();
+            var users2 = new Users2();
+            try
+            {
+                users2 = await _context.Users2.SingleOrDefaultAsync(u => u.Rfid_uid == user.Rfid_uid);
+            }
+            catch
+            {
+                
+            }
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
+            if(users2 == null)
+            {
+                _context.Users2.Add(user);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction("GetUser", new { id = user.Id }, user);
+            } else
+            {
+                users2.Created = user.Created;
+                users2.Name = user.Name;
+                users2.Rfid_uid = user.Rfid_uid;
+
+                _context.Entry(users2).State = EntityState.Modified;
+
+                try
+                {
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!UserExists(user.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+
+                return CreatedAtAction("GetUser", new { id = user.Id }, user);
+            }
+
         }
 
         // DELETE: api/Users/5
